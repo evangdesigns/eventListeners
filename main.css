@@ -1,3 +1,31 @@
 body {
     background-color: blanchedalmond;
 }
+#pies-oMy {
+    display: flex;
+    justify-content: center;
+    flex-flow:row wrap;
+    margin: 0;
+    padding: 0;
+    
+  }
+.pie-card {
+    flex-direction: row;
+    width: 30%;
+    align-content: center;
+    margin: 5px 10px;
+    padding: 2px 5px;
+    background-color:#fff;
+    border: 1px solid #000;
+    border-radius:10px;
+    box-shadow: 2px 2px 5px #333;
+}
+.pie-card img {
+    text-align:center;
+    width:200px;
+    height: 200px;
+}
+.pie-card h1,
+.pie-card h3{
+    text-align: center;
+}
